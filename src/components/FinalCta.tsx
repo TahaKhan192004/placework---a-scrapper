@@ -1,6 +1,7 @@
 import { Download } from "lucide-react";
 import { Container } from "./Container";
 import { Reveal } from "./Reveal";
+import { EXTENSION_ZIP_URL } from "@/lib/site";
 
 const STEPS = [
   {
@@ -37,7 +38,7 @@ export function FinalCta() {
             of open tabs.
           </p>
           <a
-            href="/placework-browser-extension.zip"
+            href={EXTENSION_ZIP_URL}
             download
             className="mt-8 inline-flex items-center gap-2 border-2 border-[var(--bg)] bg-[var(--bg)] px-6 py-3.5 font-serif text-xs tracking-wide text-[var(--terracotta)] uppercase transition-colors hover:bg-[var(--terracotta)] hover:text-[var(--bg)]"
           >

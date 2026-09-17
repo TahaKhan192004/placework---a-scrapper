@@ -1,8 +1,8 @@
 import { Container } from "./Container";
-import { NAV_LINKS } from "@/lib/site";
+import { EXTENSION_ZIP_URL, NAV_LINKS } from "@/lib/site";
 
 const RESOURCE_LINKS = [
-  { label: "Download the ZIP", href: "/placework-browser-extension.zip" },
+  { label: "Download the ZIP", href: EXTENSION_ZIP_URL },
   { label: "Install steps", href: "#install" },
 ];
 
